@@ -72,10 +72,27 @@
     </blockquote>
     <hr>
     <div>
-            <div class="footer">
-            <a href="#top"><div class="circle_btn ">^</div></a>
+        <div class="footer">
+            <a  onclick="topFunction()"  title="Go to top"><div id="myBtn" class="circle_btn ">^</div></a>
             </div>
         </div>
+
+        <script>
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+                if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+                    document.getElementById("myBtn").style.display = "block";
+                } else {
+                    document.getElementById("myBtn").style.display = "none";
+                }
+            }
+            
+            function topFunction() {
+                document.body.scrollTop = 0; 
+                document.documentElement.scrollTop = 0; 
+            }
+        </script>
 
 </body>
 </html>
