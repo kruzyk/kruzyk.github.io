@@ -112,6 +112,7 @@ a:hover {
     bottom: -13vh;
     height: 15vh;
     width: 20vh;
+    left: -10vh;
     text-align: center;
     font-weight: bolder;
     font-size: 15vh;
@@ -126,6 +127,9 @@ a:hover {
 .circle_btn:hover {
     bottom: -10vh;
     background: rgba(68, 68, 68, 0.5);
+}
+#myBtn{
+    display: none;
 }
 ::selection {
 color: #fff;
