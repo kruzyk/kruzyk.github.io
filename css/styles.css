@@ -102,9 +102,10 @@ a:hover {
 }
 .footer {
     position: fixed;
-    width: 40%;
-    bottom: 0px;
-    text-align: right;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
 }
 .circle_btn {
     position: absolute;
