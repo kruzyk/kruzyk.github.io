@@ -100,6 +100,37 @@ a:hover {
     display: inline-block;
     position: relative;
 }
+.footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+.circle_btn {
+    position: absolute;
+    bottom: -13vh;
+    height: 15vh;
+    width: 20vh;
+    left: -10vh;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15vh;
+    color: #34343f7e;
+    line-height: 15vh;
+    background: rgba(68, 68, 68, 0.2);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    transition: .3s;
+}
+.circle_btn:hover {
+    bottom: -10vh;
+    background: rgba(68, 68, 68, 0.5);
+}
+#myBtn{
+    display: none;
+}
 ::selection {
 color: #fff;
 background: #3bc492;
