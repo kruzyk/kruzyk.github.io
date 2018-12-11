@@ -49,9 +49,9 @@ p {
     -moz-border-radius: 100px;
     transition: .3s;
 }
-.my_photo:hover {
+.thats_me:hover .my_photo {
     -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    transform: scale(1.2); 
 }
 .about_me {
     flex-grow: 4;
