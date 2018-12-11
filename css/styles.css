@@ -50,7 +50,7 @@ p {
     box-shadow: -5px 5px 5px #aaa;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
-    transition: transform .3s, background-image 1s;
+    transition: transform 1s, background-image 1s;
 }
 .thats_me:hover .my_photo {
     -webkit-transform: scale(1.2);
