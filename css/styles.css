@@ -46,13 +46,18 @@ p {
     background-size: cover;
     display: inline-block;
     border-radius: 100px;
+    box-shadow: -5px 5px 5px #aaa;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
-    transition: .3s;
+    transition: .3s linear;
 }
 .thats_me:hover .my_photo {
     -webkit-transform: scale(1.2);
     transform: scale(1.2); 
+}
+.my_photo:hover {
+    transform: rotateY(180deg);
+    background: url('../img/thatsme2.jpg') no-repeat;
 }
 .about_me {
     flex-grow: 4;
