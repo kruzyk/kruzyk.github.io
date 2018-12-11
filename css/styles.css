@@ -41,8 +41,9 @@ p {
     flex-grow: 1;
     height: 150px;
     width: 150px;
-    overflow: hidden; 
-    background: url('../img/thatsme.jpg') no-repeat;
+    overflow: hidden;
+    background-image: url('../img/thatsme.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
     border-radius: 100px;
@@ -57,7 +58,7 @@ p {
 }
 .my_photo:hover .my_photo {
     transform: rotateY(180deg);
-    background: url('../img/thatsme2.jpg') no-repeat;
+    background: url('../img/thatsme2.jpg');
 }
 .about_me {
     flex-grow: 4;
