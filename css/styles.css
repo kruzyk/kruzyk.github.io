@@ -34,11 +34,11 @@ p {
 .thats_me {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-bottom: 1em;
 }
 .my_photo {
     flex-grow: 1;
-    align-self: center;
     height: 150px;
     width: 150px;
     overflow: hidden; 
