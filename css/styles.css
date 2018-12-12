@@ -49,10 +49,10 @@ p {
     border-radius: 100px;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
-    -webkit-transition: transform 1s ease-out, background-image 1.3s ease 0.5s;
-    -moz-transition: transform 1s ease-out, background-image 1.3s ease 0.5s;
-    -o-transition: transform 1s ease-out, background-image 1.3s ease 0.5s;
-    transition: transform 1s ease-out, background-image 1.3s ease 0.5s;
+    -webkit-transition: transform 0.7s ease-out, background-image 1s ease 0.1s;
+    -moz-transition: transform 0.7s ease-out, background-image 1s ease 0.1s;
+    -o-transition: transform 0.7s ease-out, background-image 1s ease 0.1s;
+    transition: transform 0.7s ease-out, background-image 1s ease 0.1s;
 }
 .thats_me:hover .my_photo {
     background-image: url('../img/thatsme2.jpg');
