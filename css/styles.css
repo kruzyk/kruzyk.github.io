@@ -153,7 +153,7 @@ background: #3bc492;
     src: url(https://use.typekit.net/af/570fe7/000000000000000000012863/21/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/570fe7/000000000000000000012863/21/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/570fe7/000000000000000000012863/21/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:omnes-pro;src:url(https://use.typekit.net/af/894210/000000000000000000012861/21/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/894210/000000000000000000012861/21/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/894210/000000000000000000012861/21/a?subset_id=2&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;}@font-face{font-family:omnes-pro;src:url(https://use.typekit.net/af/44d911/000000000000000000012865/21/l?subset_id=2&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/44d911/000000000000000000012865/21/d?subset_id=2&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/44d911/000000000000000000012865/21/a?subset_id=2&fvd=n5&v=3) format("opentype");font-weight:500;font-style:normal;}@font-face{font-family:source-code-pro;src:url(https://use.typekit.net/af/4bd05c/000000000000000000013297/21/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/4bd05c/000000000000000000013297/21/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/4bd05c/000000000000000000013297/21/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;
     }
 /* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
     h1,
     h2,
     h3,
@@ -166,9 +166,9 @@ background: #3bc492;
         position: relative;
         left: 5vh;
     }
-}
+}*/
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) {
+/* @media (min-width: 576px) and (max-width: 767.98px) {
     h1,
     h2,
     h3,
@@ -181,9 +181,9 @@ background: #3bc492;
         position: relative;
         left: 11vh;
     }
-}
+}*/
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) {
+/* @media (min-width: 768px) and (max-width: 991.98px) {
     h1,
     h2,
     h3,
@@ -196,7 +196,7 @@ background: #3bc492;
         position: relative;
         left: 11vh;
     }
-}
+}*/
 /* // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
     
