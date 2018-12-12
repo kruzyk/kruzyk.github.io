@@ -1,0 +1,207 @@
+body {
+    margin: 40px auto;
+    max-width: 90vh;
+    line-height: 1.6;
+    font-size: 18px;
+    font-family: "omnes-pro", helvetica, sans-serif;
+    color: #444;
+    padding: 0 10px;
+    -webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+    color: #34343f;
+}
+h1 {
+    font-size: 120px;
+    font-weight: 600;
+    line-height: 0.5;
+    letter-spacing: -14px;
+}
+h2 {
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 1.25;
+    border-left: 2px solid rgb(150, 150, 150);
+    padding: 0 1em;
+}
+p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+.thats_me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1em;
+}
+.my_photo {
+    flex-grow: 1;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    background-image: url('../img/thatsme.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-transition: transform 0.7s ease, background-image 1s ease 0.1s;
+    -moz-transition: transform 0.7s ease, background-image 1s ease 0.1s;
+    -o-transition: transform 0.7s ease, background-image 1s ease 0.1s;
+    transition: transform 0.7s ease, background-image 1s ease 0.1s;
+}
+.thats_me:hover .my_photo {
+    background-image: url('../img/thatsme3.jpg');
+    -webkit-transform: rotateY(180deg) scale(1.2); /* Chrome 4+, Op 15+, Saf 3.1, iOS Saf 3.2+ */
+    -moz-transform: rotateY(180deg) scale(1.2); /* Fx 3.5-15 */
+    -ms-transform: rotateY(180deg) scale(1.2); /* IE 9 */
+    -o-transform: rotateY(180deg) scale(1.2); /* Op 10.5-12 */
+    transform: rotateY(180deg) scale(1.2); /* Fx 16+, IE 10+ */
+}
+.my_photo:hover .my_photo {
+
+}
+.about_me {
+    flex-grow: 4;
+    width: 70%;
+    height: auto;
+    display: inline-block;
+    padding-left:  2em;
+}
+.bold {
+    font-weight: bold;
+}
+.skills_tools {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.skills,
+.tools,
+.in_progress {
+    width: 40%;
+    flex-grow: 1;
+}
+.in_progress {
+    color: rgba(68, 68, 68, 0.5);
+}
+a {
+    color: rgb(150, 150, 150);
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+    transition: all .8s ease-out;
+    cursor: pointer;
+ /*   border-bottom: 2px dotted #3bc492; */
+    transform: rotate(-3deg);
+    display: inline-block;
+    position: relative;
+}
+a:active,
+a:visited {
+    color: rgb(150, 150, 150);
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    border-bottom: 2px solid #3bc492;
+    transform: rotate(3deg);
+    display: inline-block;
+    position: relative;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+.circle_btn {
+    position: absolute;
+    bottom: -13vh;
+    height: 15vh;
+    width: 20vh;
+    left: -10vh;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15vh;
+    color: #34343f7e;
+    line-height: 15vh;
+    background: rgba(68, 68, 68, 0.2);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    transition: .3s;
+}
+.circle_btn:hover {
+    bottom: -10vh;
+    background: rgba(68, 68, 68, 0.5);
+}
+#myBtn{
+    display: none;
+}
+::selection {
+color: #fff;
+background: #3bc492;
+}
+@font-face {
+    font-family: omnes-pro;
+    src: url(https://use.typekit.net/af/570fe7/000000000000000000012863/21/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/570fe7/000000000000000000012863/21/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/570fe7/000000000000000000012863/21/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:omnes-pro;src:url(https://use.typekit.net/af/894210/000000000000000000012861/21/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/894210/000000000000000000012861/21/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/894210/000000000000000000012861/21/a?subset_id=2&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;}@font-face{font-family:omnes-pro;src:url(https://use.typekit.net/af/44d911/000000000000000000012865/21/l?subset_id=2&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/44d911/000000000000000000012865/21/d?subset_id=2&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/44d911/000000000000000000012865/21/a?subset_id=2&fvd=n5&v=3) format("opentype");font-weight:500;font-style:normal;}@font-face{font-family:source-code-pro;src:url(https://use.typekit.net/af/4bd05c/000000000000000000013297/21/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/4bd05c/000000000000000000013297/21/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/4bd05c/000000000000000000013297/21/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;
+    }
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    h1,
+    h2,
+    h3,
+    p,
+    aside {
+        transform: scale(0.5);
+    }
+    .my_photo { 
+        transform: scale(0.7); 
+        position: relative;
+        left: 5vh;
+    }
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1,
+    h2,
+    h3,
+    p,
+    aside {
+        transform: scale(0.7);
+    }
+    .my_photo { 
+        transform: scale(0.8); 
+        position: relative;
+        left: 11vh;
+    }
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1,
+    h2,
+    h3,
+    p,
+    aside {
+        transform: scale(0.7);
+    }
+    .my_photo { 
+        transform: scale(0.9); 
+        position: relative;
+        left: 11vh;
+    }
+}
+/* // Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    
+} */
