@@ -159,7 +159,7 @@ background: #3bc492;
     h3,
     p,
     aside {
-        transform: scale(0.5);
+        transform: scale(0.3);
     }
     .my_photo { 
         transform: scale(0.7); 
@@ -174,7 +174,7 @@ background: #3bc492;
     h3,
     p,
     aside {
-        transform: scale(0.7);
+        transform: scale(0.5);
     }
     .my_photo { 
         transform: scale(0.8); 
