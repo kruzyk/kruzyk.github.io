@@ -55,15 +55,12 @@ p {
     transition: transform 0.7s ease, background-image 1s ease 0.1s;
 }
 .thats_me:hover .my_photo {
-    background-image: url('../img/thatsme3.jpg');
+/*     background-image: url('../img/thatsme3.jpg'); */
     -webkit-transform: rotateY(180deg) scale(1.2); /* Chrome 4+, Op 15+, Saf 3.1, iOS Saf 3.2+ */
     -moz-transform: rotateY(180deg) scale(1.2); /* Fx 3.5-15 */
     -ms-transform: rotateY(180deg) scale(1.2); /* IE 9 */
     -o-transform: rotateY(180deg) scale(1.2); /* Op 10.5-12 */
     transform: rotateY(180deg) scale(1.2); /* Fx 16+, IE 10+ */
-}
-.my_photo:hover .my_photo {
-
 }
 .about_me {
     flex-grow: 4;
