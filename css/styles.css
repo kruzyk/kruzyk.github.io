@@ -49,7 +49,7 @@ p {
     border-radius: 100px;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
-    transition: transform 1s, background-image 1s;
+    transition: transform 1s, background-image 1.3s;
 }
 .thats_me:hover .my_photo {
     background-image: url('../img/thatsme2.jpg');
