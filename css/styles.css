@@ -49,18 +49,18 @@ p {
     border-radius: 100px;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
-    -webkit-transition: transform 0.7s ease, background-image 1s ease 0.1s;
-    -moz-transition: transform 0.7s ease, background-image 1s ease 0.1s;
-    -o-transition: transform 0.7s ease, background-image 1s ease 0.1s;
-    transition: transform 0.7s ease, background-image 1s ease 0.1s;
+    -webkit-transition: transform 0.3s ease;
+    -moz-transition: transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
 }
 .thats_me:hover .my_photo {
 /*     background-image: url('../img/thatsme3.jpg'); */
-    -webkit-transform: rotateY(180deg) scale(1.2); /* Chrome 4+, Op 15+, Saf 3.1, iOS Saf 3.2+ */
-    -moz-transform: rotateY(180deg) scale(1.2); /* Fx 3.5-15 */
-    -ms-transform: rotateY(180deg) scale(1.2); /* IE 9 */
-    -o-transform: rotateY(180deg) scale(1.2); /* Op 10.5-12 */
-    transform: rotateY(180deg) scale(1.2); /* Fx 16+, IE 10+ */
+    -webkit-transform: scale(1.2); /* Chrome 4+, Op 15+, Saf 3.1, iOS Saf 3.2+ */
+    -moz-transform: scale(1.2); /* Fx 3.5-15 */
+    -ms-transform: scale(1.2); /* IE 9 */
+    -o-transform: scale(1.2); /* Op 10.5-12 */
+    transform: scale(1.2); /* Fx 16+, IE 10+ */
 }
 .about_me {
     flex-grow: 4;
@@ -150,10 +150,15 @@ background: #3bc492;
     src: url(https://use.typekit.net/af/570fe7/000000000000000000012863/21/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/570fe7/000000000000000000012863/21/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/570fe7/000000000000000000012863/21/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:omnes-pro;src:url(https://use.typekit.net/af/894210/000000000000000000012861/21/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/894210/000000000000000000012861/21/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/894210/000000000000000000012861/21/a?subset_id=2&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;}@font-face{font-family:omnes-pro;src:url(https://use.typekit.net/af/44d911/000000000000000000012865/21/l?subset_id=2&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/44d911/000000000000000000012865/21/d?subset_id=2&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/44d911/000000000000000000012865/21/a?subset_id=2&fvd=n5&v=3) format("opentype");font-weight:500;font-style:normal;}@font-face{font-family:source-code-pro;src:url(https://use.typekit.net/af/4bd05c/000000000000000000013297/21/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/4bd05c/000000000000000000013297/21/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/4bd05c/000000000000000000013297/21/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;
     }
 /* Extra small devices (portrait phones, less than 576px)*/
-/* @media (max-width: 575.98px) {
-    h1,
-    h2,
-    h3,
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 60px;
+        letter-spacing: -7px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    
     p,
     aside {
         transform: scale(0.3);
@@ -163,7 +168,7 @@ background: #3bc492;
         position: relative;
         left: 5vh;
     }
-}*/
+}
 /* Small devices (landscape phones, 576px and up)*/
 /* @media (min-width: 576px) and (max-width: 767.98px) {
     h1,
