@@ -181,6 +181,9 @@ background: #3bc492;
     position: relative;
     left: 5vh;
     } */
+    ul {
+        padding-inline-start: 40px;
+    }
     .footer {
         display: none;
     }
