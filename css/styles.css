@@ -161,14 +161,24 @@ background: #3bc492;
     h2 {
         font-size: 30px;
     }
+    .thats_me {
+        flex-direction: column;
+    }
+    .thats_me:hover .my_photo {
+        -webkit-transform: scale(1); /* Chrome 4+, Op 15+, Saf 3.1, iOS Saf 3.2+ */
+        -moz-transform: scale(1); /* Fx 3.5-15 */
+        -ms-transform: scale(1); /* IE 9 */
+        -o-transform: scale(1); /* Op 10.5-12 */
+        transform: scale(1); /* Fx 16+, IE 10+ */
+    }
 /*     p,
     aside {
         transform: scale(0.3);
-    } */
-/*     .my_photo { 
-        transform: scale(0.7); 
-        position: relative;
-        left: 5vh;
+    }
+    .my_photo { 
+    transform: scale(0.7); 
+    position: relative;
+    left: 5vh;
     } */
     .footer {
         display: none;
