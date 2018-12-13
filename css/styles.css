@@ -151,6 +151,9 @@ background: #3bc492;
     }
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+    body {
+        font-size: 18px;
+    }
     h1 {
         font-size: 60px;
         letter-spacing: -7px;
@@ -158,11 +161,10 @@ background: #3bc492;
     h2 {
         font-size: 30px;
     }
-    
-    p,
+/*     p,
     aside {
         transform: scale(0.3);
-    }
+    } */
     .my_photo { 
         transform: scale(0.7); 
         position: relative;
