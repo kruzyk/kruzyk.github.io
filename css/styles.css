@@ -49,18 +49,18 @@ p {
     border-radius: 100px;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
-    -webkit-transition: transform 0.3s ease;
-    -moz-transition: transform 0.3s ease;
-    -o-transition: transform 0.3s ease;
-    transition: transform 0.3s ease;
+    -webkit-transition: transform 0.3s ease-out;
+    -moz-transition: transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
 }
 .thats_me:hover .my_photo {
 /*     background-image: url('../img/thatsme3.jpg'); */
-    -webkit-transform: scale(1.2); /* Chrome 4+, Op 15+, Saf 3.1, iOS Saf 3.2+ */
-    -moz-transform: scale(1.2); /* Fx 3.5-15 */
-    -ms-transform: scale(1.2); /* IE 9 */
-    -o-transform: scale(1.2); /* Op 10.5-12 */
-    transform: scale(1.2); /* Fx 16+, IE 10+ */
+    -webkit-transform: scale(1.4); /* Chrome 4+, Op 15+, Saf 3.1, iOS Saf 3.2+ */
+    -moz-transform: scale(1.4); /* Fx 3.5-15 */
+    -ms-transform: scale(1.4); /* IE 9 */
+    -o-transform: scale(1.4); /* Op 10.5-12 */
+    transform: scale(1.4); /* Fx 16+, IE 10+ */
 }
 .about_me {
     flex-grow: 4;
