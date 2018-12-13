@@ -165,11 +165,11 @@ background: #3bc492;
     aside {
         transform: scale(0.3);
     } */
-    .my_photo { 
+/*     .my_photo { 
         transform: scale(0.7); 
         position: relative;
         left: 5vh;
-    }
+    } */
 }
 /* Small devices (landscape phones, 576px and up)*/
 /* @media (min-width: 576px) and (max-width: 767.98px) {
