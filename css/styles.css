@@ -152,6 +152,7 @@ background: #3bc492;
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
     body {
+        width: 100%;
         font-size: 14px;
     }
     h1 {
@@ -171,11 +172,11 @@ background: #3bc492;
         -o-transform: scale(1); /* Op 10.5-12 */
         transform: scale(1); /* Fx 16+, IE 10+ */
     }
-/*     p,
-    aside {
-        transform: scale(0.3);
+    .about_me {
+        width: 100%;
+        padding-left: 0;
     }
-    .my_photo { 
+/*  .my_photo { 
     transform: scale(0.7); 
     position: relative;
     left: 5vh;
