@@ -170,6 +170,9 @@ background: #3bc492;
         position: relative;
         left: 5vh;
     } */
+    .footer {
+        display: none;
+    }
 }
 /* Small devices (landscape phones, 576px and up)*/
 /* @media (min-width: 576px) and (max-width: 767.98px) {
