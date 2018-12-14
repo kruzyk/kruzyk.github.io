@@ -1,58 +1,15 @@
 body {
-  margin: 40px auto;
-  max-width: 90vh;
-  line-height: 1.6;
   font-size: 18px;
-  font-family: "omnes-pro", helvetica, sans-serif;
-  color: #444;
-  padding: 0 10px;
-  -webkit-font-smoothing: antialiased;
-}
-h1,
-h2,
-h3 {
-  line-height: 1.2;
-  color: #34343f;
 }
 h1 {
   font-size: 120px;
-  font-weight: 600;
-  line-height: 0.5;
   letter-spacing: -14px;
 }
 h2 {
   font-size: 60px;
-  font-weight: 300;
-  line-height: 1.25;
-  border-left: 2px solid rgb(150, 150, 150);
-  padding: 0 1em;
-}
-p {
-  -webkit-margin-before: 0;
-  -webkit-margin-after: 0;
 }
 .thats_me {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 1em;
-}
-.my_photo {
-  flex-grow: 1;
-  height: 150px;
-  width: 150px;
-  overflow: hidden;
-  background-image: url("../img/thatsme.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: inline-block;
-  border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  -webkit-transition: transform 0.3s ease-out;
-  -moz-transition: transform 0.3s ease-out;
-  -o-transition: transform 0.3s ease-out;
-  transition: transform 0.3s ease-out;
+  flex-direction: row;
 }
 .thats_me:hover .my_photo {
   /*     background-image: url('../img/thatsme3.jpg'); */
@@ -63,10 +20,7 @@ p {
   transform: scale(1.4); /* Fx 16+, IE 10+ */
 }
 .about_me {
-  flex-grow: 4;
   width: 70%;
-  height: auto;
-  display: inline-block;
   padding-left: 2em;
 }
 .bold {
