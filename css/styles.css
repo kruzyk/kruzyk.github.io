@@ -47,7 +47,7 @@
   font-display: fallback;
 }
 /* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) { */
   body {
     margin: 40px auto;
     max-width: 90vh;
@@ -160,9 +160,9 @@
   .footer {
     display: none;
   }
-}
+/* } */
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 576px) /*and (max-width: 767.98px)*/ {
   body {
     font-size: 18px;
   }
@@ -245,8 +245,8 @@
       }
   } */
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-}
+/*@media (min-width: 992px) and (max-width: 1199.98px) {
+}*/
 /* Extra large devices (large desktops, 1200px and up)
   @media (min-width: 1200px) {
       
