@@ -194,6 +194,7 @@
     padding-inline-start: 40px;
   }
   .footer {
+    display: block;
     position: fixed;
     left: 0;
     right: 0;
