@@ -118,17 +118,26 @@
   .skills_tools {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-between;
   }
   .skills,
   .tools,
   .in_progress {
-    width: 40%;
-    flex-grow: 1;
+    width: 30%;
+    border: 0.5px solid grey;
+    padding: 5px 5px;
   }
   .in_progress {
     color: rgba(68, 68, 68, 0.5);
   }
+  .skills:hover,
+  .tools:hover,
+  .in_progress:hover {
+    -webkit-box-shadow: 4px 4px 10px rgba(0,0,0,.2);
+    box-shadow: 4px 4px 10px rgba(0,0,0,.2);
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
   ul {
     padding-inline-start: 20px;
   }
