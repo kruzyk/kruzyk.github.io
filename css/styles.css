@@ -204,22 +204,6 @@
   ul {
     padding-inline-start: 40px;
   }
-  .skills,
-  .tools,
-  .in_progress {
-    width: 45%;
-    -webkit-transition: -webkit-box-shadow .3s ease,-webkit-transform .3s ease;
-    transition: box-shadow .3s ease,transform .3s ease,-webkit-box-shadow .3s ease,-webkit-transform .3s ease;
-  }
-  .skills:hover,
-  .tools:hover,
-  .in_progress:hover {
-    -webkit-box-shadow: 4px 4px 10px rgba(0,0,0,.2);
-    box-shadow: 4px 4px 10px rgba(0,0,0,.2);
-    -webkit-transform: translateY(-2px);
-    transform: translateY(-2px);
-    border-top-color: #6589d3;
-  }
   .footer {
     display: block;
     position: fixed;
@@ -278,6 +262,17 @@
   .tools,
   .in_progress {
     width: 31%;
+    -webkit-transition: -webkit-box-shadow .3s ease,-webkit-transform .3s ease;
+    transition: box-shadow .3s ease,transform .3s ease,-webkit-box-shadow .3s ease,-webkit-transform .3s ease;
+  }
+  .skills:hover,
+  .tools:hover,
+  .in_progress:hover {
+    -webkit-box-shadow: 4px 4px 10px rgba(0,0,0,.2);
+    box-shadow: 4px 4px 10px rgba(0,0,0,.2);
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    border-top-color: #6589d3;
   }
 }
 /* Extra large devices (large desktops, 1200px and up)
