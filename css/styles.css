@@ -124,8 +124,16 @@
   .tools,
   .in_progress {
     width: 30%;
-    border: 0.5px solid grey;
+    border: 0.5px solid #d3d3d3;;
     padding: 5px 5px;
+    box-sizing: border-box;
+    border-top-color: #d3d3d3;
+    border-top-width: 6.8px;
+    border-top-left-radius: 6.8px;
+    border-top-right-radius: 6.8px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: box-shadow .3s ease,transform .3s ease,-webkit-box-shadow .3s ease,-webkit-transform .3s ease;
   }
   .in_progress {
     color: rgba(68, 68, 68, 0.5);
@@ -137,6 +145,7 @@
     box-shadow: 4px 4px 10px rgba(0,0,0,.2);
     -webkit-transform: translateY(-2px);
     transform: translateY(-2px);
+    border-top-color: #6589d3;
 }
   ul {
     padding-inline-start: 20px;
