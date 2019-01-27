@@ -123,8 +123,8 @@
   .skills,
   .tools,
   .in_progress {
-    width: 30%;
-    border: 0.5px solid #d3d3d3;;
+    width: 31%;
+    border: 1px solid #d3d3d3;;
     padding: 5px 5px;
     box-sizing: border-box;
     border-top-color: #d3d3d3;
